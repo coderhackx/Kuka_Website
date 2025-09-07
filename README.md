@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/faizan-ahmad5/Portfolio-responsive.git
+   git clone https://github.com/coderhackx/Kuka_Website.git
    ```
 2. Navigate to the project directory:
    ```bash
