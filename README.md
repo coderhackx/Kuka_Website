@@ -12,7 +12,7 @@ Welcome to my personal portfolio website! This project showcases my skills in fr
 - [Contribution](#contribution)
 
 ## Project Overview
-This is a fully responsive portfolio website that adapts seamlessly across different devices, including mobile, tablet, and desktop. The site includes multiple sections such as Home, Services, Projects, About, and Contact, which can be easily navigated using the top navigation bar.
+The goal of this project is to enhance 3D muscle imaging by combining robotic precision with motion tracking. The KUKA iiwa 14, known for its safety and compliance in human-robot interaction, is used to hold and maneuver an imaging probe. The OptiTrack motion capture system provides accurate tracking of the subject’s movement, allowing the robot to dynamically adjust and maintain optimal imaging alignment.
 
 ## Features
 - **Responsive Design:** Fully responsive across various screen sizes.
