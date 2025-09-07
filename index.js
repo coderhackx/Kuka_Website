@@ -1,29 +1,36 @@
-const hamburger = document.querySelector(".hamburger");
-const mobileMenu = document.querySelector(".nav-list ul");
-const menuItem = document.querySelectorAll(".nav-list ul li a");
-const header = document.querySelector(".header.container");
+:root {
+  --primary-orange: #FF6600;
+  --secondary-silver: #C0C0C0;
+  --dark-bg: #1A1A1A;
+  --light-text: #FFFFFF;
+}
 
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  mobileMenu.classList.toggle("active");
-});
+/* Update brand colors */
+.section-title span,
+.brand h1 span,
+.cta,
+#header .nav-list ul li:hover a {
+  color: var(--primary-orange);
+}
 
-// The classList property allows you to interact with the classes of an HTML element.
-menuItem.forEach((item) => {
-  item.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    mobileMenu.classList.toggle("active");
-  });
-});
+.cta {
+  border: 2px solid var(--primary-orange);
+  color: var(--light-text);
+}
 
-// after hero
-document.addEventListener("scroll", () => {
-  var scroll_position = window.scrollY;
-  if (scroll_position > 250) {
-    header.style.backgroundColor = "#29323c";
-  } else {
-    header.style.backgroundColor = "transparent";
-  }
-});
+.cta:hover {
+  background-color: var(--primary-orange);
+}
 
+/* Background gradients (dark to silver) */
+#footer,
+#projects .project-info,
+#services .service-item::after {
+  background-image: linear-gradient(60deg, var(--dark-bg) 0%, var(--secondary-silver) 100%);
+}
 
+/* Hero background overlay */
+#hero::after {
+  background-color: black;
+  opacity: 0.85;
+}
