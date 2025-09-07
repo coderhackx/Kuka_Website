@@ -8,6 +8,7 @@ hamburger.addEventListener("click", () => {
   mobileMenu.classList.toggle("active");
 });
 
+// The classList property allows you to interact with the classes of an HTML element.
 menuItem.forEach((item) => {
   item.addEventListener("click", () => {
     hamburger.classList.toggle("active");
@@ -15,11 +16,14 @@ menuItem.forEach((item) => {
   });
 });
 
+// after hero
 document.addEventListener("scroll", () => {
   var scroll_position = window.scrollY;
   if (scroll_position > 250) {
-    header.style.backgroundColor = "#111";
+    header.style.backgroundColor = "#29323c";
   } else {
     header.style.backgroundColor = "transparent";
   }
 });
+
+
