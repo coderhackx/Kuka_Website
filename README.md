@@ -57,7 +57,7 @@ portfolio-website/
 ```
 
 ## Live Demo
-Check out the live version of my portfolio here: [Live Demo](https://faizan-ahmad5.github.io/Portfolio-responsive/)
+Check out the live version of my portfolio here: [Live Demo](https://coderhackx.github.io/Portfolio-responsive/)
 
 
 ## Contribution
