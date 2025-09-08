@@ -49,45 +49,27 @@ p {
   text-align: center;
 }
 
-/* Replace crimson with KUKA orange (#FF6600) */
-
 .section-title span {
   color: #FF6600;
 }
 
-.brand h1 span {
-  color: #FF6600;
+.cta {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid crimson;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  transition: 0.3s ease background-color, color;
+  /* color: black; */
+  color: white;
 }
 
-#header .nav-list ul li:hover a {
-  color: crimson;
-}
-
-@keyframes text-reveal-name {
-  100% {
-    color: #FF6600;
-    font-weight: 500;
-  }
-}
-
-#hero h1 span {
-  background-color: #FF6600;
-}
-
-#about .col-left .about-img::after {
-  border: 7px solid #FF6600;
-}
-
-#about .about .col-left .about-img::after {
-  border: 10px solid #FF6600;
-}
-
-
-/* If you want the call-to-action hover too */
 .cta:hover {
   color: white;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: crimson;
 }
 
 .brand h1 {
@@ -645,7 +627,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid crimson;
+  border: 7px solid ;
   z-index: -1;
 }
 
@@ -665,7 +647,7 @@ p {
     top: 34px;
     height: 98%;
     width: 98%;
-    border: 10px solid crimson;
+    border: 10px solid ;
   }
 
   #about .col-right {
