@@ -57,8 +57,10 @@ p {
 
 .brand h1 span {
   color: #FF6600;
-  font-size: 35px;
-  font-family: serif;
+}
+
+#header .nav-list ul li:hover a {
+  color: #FF6600;
 }
 
 @keyframes text-reveal-name {
@@ -68,13 +70,18 @@ p {
   }
 }
 
-#header .nav-list ul li:hover a {
-  color: #FF6600;
+#hero h1 span {
+  background-color: #FF6600;
 }
 
 #about .col-left .about-img::after {
   border: 7px solid #FF6600;
 }
+
+#about .about .col-left .about-img::after {
+  border: 10px solid #FF6600;
+}
+
 
 /* If you want the call-to-action hover too */
 .cta:hover {
