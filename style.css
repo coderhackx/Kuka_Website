@@ -57,7 +57,7 @@ p {
   display: inline-block;
   padding: 10px 30px;
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid orange;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -67,7 +67,7 @@ p {
   color: white;
 }
 
-.cta:hover {
+.cta: hover {
   color: white;
   background-color: orange;
 }
@@ -80,7 +80,7 @@ p {
 }
 
 .brand h1 span {
-  color: crimson;
+  color: orange;
   font-size: 35px;
   font-family: serif;
 }
