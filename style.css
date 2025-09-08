@@ -60,7 +60,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-  color: #FF6600;
+  color: crimson;
 }
 
 @keyframes text-reveal-name {
