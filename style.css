@@ -50,14 +50,14 @@ p {
 }
 
 .section-title span {
-  color: #FF5800;
+  color: crimson;
 }
 
 .cta {
   display: inline-block;
   padding: 10px 30px;
   background-color: transparent;
-  border: 2px solid #FF5800;
+  border: 2px solid crimson;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -67,7 +67,7 @@ p {
   color: white;
 }
 
-.cta: hover {
+.cta:hover {
   color: white;
   background-color: crimson;
 }
@@ -80,7 +80,7 @@ p {
 }
 
 .brand h1 span {
-  color: #FF5800;
+  color: crimson;
   font-size: 35px;
   font-family: serif;
 }
@@ -242,7 +242,7 @@ p {
 #header .nav-list ul li a{
   transition: color .3s ease;
 }
-#header .nav-list ul li: hover a {
+#header .nav-list ul li:hover a {
   color: crimson;
 }
 
