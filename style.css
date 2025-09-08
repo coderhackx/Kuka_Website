@@ -50,14 +50,14 @@ p {
 }
 
 .section-title span {
-  color: crimson;
+  color: #FF5800;
 }
 
 .cta {
   display: inline-block;
   padding: 10px 30px;
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid #FF5800;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -80,7 +80,7 @@ p {
 }
 
 .brand h1 span {
-  color: crimson;
+  color: #FF5800;
   font-size: 35px;
   font-family: serif;
 }
