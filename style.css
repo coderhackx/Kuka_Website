@@ -50,14 +50,14 @@ p {
 }
 
 .section-title span {
-  color: orange;
+  color: #FF5800;
 }
 
 .cta {
   display: inline-block;
   padding: 10px 30px;
   background-color: transparent;
-  border: 2px solid orange;
+  border: 2px solid crimson;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -69,7 +69,7 @@ p {
 
 .cta: hover {
   color: white;
-  background-color: orange;
+  background-color: #FF5800;
 }
 
 .brand h1 {
