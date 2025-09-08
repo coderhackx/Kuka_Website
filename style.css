@@ -338,7 +338,7 @@ p {
 }
 
 #hero h1 span {
-  background-color: crimson;
+  background-color: #FF5800;
   height: 100%;
   width: 0;
   position: absolute;
