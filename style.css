@@ -50,14 +50,16 @@ p {
 }
 
 .section-title span {
-  color: crimson;
+  color: #FF5800;
 }
 
 .cta {
   display: inline-block;
   padding: 10px 30px;
   background-color: transparent;
-  border: 2px solid crimson;
+  /*border: 2px solid crimson; */
+  border: 2px solid #FF5800;
+
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -80,7 +82,8 @@ p {
 }
 
 .brand h1 span {
-  color: crimson;
+  /*color: crimson; */
+  color: #FF5800;
   font-size: 35px;
   font-family: serif;
 }
@@ -243,7 +246,7 @@ p {
   transition: color .3s ease;
 }
 #header .nav-list ul li:hover a {
-  color: crimson;
+  color: #FF5800;
 }
 
 @media screen and (min-width: 1200px) {
@@ -332,13 +335,13 @@ p {
 
 @keyframes text-reveal-name {
   100% {
-    color: crimson;
+    color: #FF5800;
     font-weight: 500;
   }
 }
 
 #hero h1 span {
-  background-color: crimson;
+  background-color: #FF5800;
   height: 100%;
   width: 0;
   position: absolute;
@@ -450,9 +453,9 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #29323c 0%, #000000 100%);
   opacity: 0.9;
-  z-index: -1;
+  z-index: -1;contact-info
 }
 
 @media only screen and (min-width: 768px) {
@@ -508,7 +511,7 @@ p {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #000000 0%, #000000 100%);
   color: white;
 }
 
@@ -541,7 +544,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #000000 0%, #485563 100%);
   opacity: 0.3;
 }
 
@@ -740,7 +743,7 @@ p {
 
 /* Footer */
 #footer {
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #000000 0%, #000000 100%);
 }
 #footer .footer {
   min-height: 200px;
