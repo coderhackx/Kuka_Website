@@ -1,3 +1,6 @@
+## Project Overview
+The goal of this project is to enhance 3D muscle imaging by combining robotic precision with motion tracking. The KUKA iiwa 14, known for its safety and compliance in human-robot interaction, is used to hold and maneuver an imaging probe. The OptiTrack motion capture system provides accurate tracking of the subject’s movement, allowing the robot to dynamically adjust and maintain optimal imaging alignment.
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
@@ -7,8 +10,6 @@
 - [Live Demo](#live-demo)
 - [Contribution](#contribution)
 
-## Project Overview
-The goal of this project is to enhance 3D muscle imaging by combining robotic precision with motion tracking. The KUKA iiwa 14, known for its safety and compliance in human-robot interaction, is used to hold and maneuver an imaging probe. The OptiTrack motion capture system provides accurate tracking of the subject’s movement, allowing the robot to dynamically adjust and maintain optimal imaging alignment.
 
 ## Features
 - **Robotic Precision:** The KUKA iiwa 14 provides compliant, safe, and accurate probe positioning.
