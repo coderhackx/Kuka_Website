@@ -1,8 +1,3 @@
-# Overview
-
-The system is designed to enhance imaging accuracy by uniting robotic precision with motion awareness. The KUKA iiwa 14 serves as the manipulator for holding and maneuvering the imaging probe, ensuring steady and repeatable positioning. At the same time, the OptiTrack motion capture system monitors subject movements, allowing the robot to automatically adjust and maintain optimal alignment during scanning.
-
-
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
