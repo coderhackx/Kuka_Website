@@ -1,5 +1,7 @@
-## Project Overview
-The goal of this project is to enhance 3D muscle imaging by combining robotic precision with motion tracking. The KUKA iiwa 14, known for its safety and compliance in human-robot interaction, is used to hold and maneuver an imaging probe. The OptiTrack motion capture system provides accurate tracking of the subject’s movement, allowing the robot to dynamically adjust and maintain optimal imaging alignment.
+# Overview
+
+The system is designed to enhance imaging accuracy by uniting robotic precision with motion awareness. The KUKA iiwa 14 serves as the manipulator for holding and maneuvering the imaging probe, ensuring steady and repeatable positioning. At the same time, the OptiTrack motion capture system monitors subject movements, allowing the robot to automatically adjust and maintain optimal alignment during scanning.
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -7,9 +9,9 @@ The goal of this project is to enhance 3D muscle imaging by combining robotic pr
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 - [Folder Structure](#folder-structure)
-- [Live Demo](#live-demo)
-- [Contribution](#contribution)
 
+## Project Overview
+The goal of this project is to enhance 3D muscle imaging by combining robotic precision with motion tracking. The KUKA iiwa 14, known for its safety and compliance in human-robot interaction, is used to hold and maneuver an imaging probe. The OptiTrack motion capture system provides accurate tracking of the subject’s movement, allowing the robot to dynamically adjust and maintain optimal imaging alignment.
 
 ## Features
 - **Robotic Precision:** The KUKA iiwa 14 provides compliant, safe, and accurate probe positioning.
@@ -26,3 +28,33 @@ The goal of this project is to enhance 3D muscle imaging by combining robotic pr
 - **OptiTrack Motion Capture System**
 - **HTML5, CSS3, JavaScript**
 - **Icons**: [https://icons8.com](https://icons8.com)
+
+## Setup
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/coderhackx/Kuka_Website.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-responsive
+   ```
+3. Open the `index.html` file in your preferred browser to view the website.
+
+## Folder Structure
+```bash
+portfolio-website/
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── my-cv.pdf
+├── style.css
+├── index.html
+└── index.js
+```
+
+## Live Demo
+Check out the live version of my portfolio here: [Live Demo](https://coderhackx.github.io/Kuka_Website/) 
+
