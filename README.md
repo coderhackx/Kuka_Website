@@ -1,7 +1,6 @@
 # Overview
 
-The system is designed to enhance imaging accuracy by uniting robotic precision with motion awareness. The KUKA iiwa 14 serves as the manipulator for holding and maneuvering the imaging probe, ensuring steady and repeatable positioning. At the same time, the OptiTrack motion capture system monitors subject movements, allowing the robot to automatically adjust and maintain optimal alignment during scanning.
-
+This is a static website showcasing a system that integrates the KUKA iiwa 14 robotic arm with an OptiTrack motion capture system for motion-aware imaging. The robot holds and maneuvers the imaging probe with precision, while OptiTrack tracks subject movement in real time. The website provides an overview of how the system works, its features, and its capabilities in improving imaging accuracy and repeatability—all presented in a lightweight, static format for easy access and fast loading. 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -11,7 +10,7 @@ The system is designed to enhance imaging accuracy by uniting robotic precision 
 - [Folder Structure](#folder-structure)
 
 ## Project Overview
-The goal of this project is to enhance 3D muscle imaging by combining robotic precision with motion tracking. The KUKA iiwa 14, known for its safety and compliance in human-robot interaction, is used to hold and maneuver an imaging probe. The OptiTrack motion capture system provides accurate tracking of the subject’s movement, allowing the robot to dynamically adjust and maintain optimal imaging alignment.
+The goal of this project is to enhance 3D muscle imaging by combining robotic precision with motion tracking. The KUKA iiwa 14, known for its safety and compliance in human-robot interaction, is used to hold and maneuver an imaging probe. The OptiTrack motion capture system provides accurate tracking of the subject’s movement, allowing the robot to adjust and maintain optimal imaging alignment dynamically.
 
 ## Features
 - **Robotic Precision:** The KUKA iiwa 14 provides compliant, safe, and accurate probe positioning.
