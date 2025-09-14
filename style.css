@@ -71,7 +71,7 @@ p {
 
 .cta:hover {
   color: white;
-  background-color: crimson;
+  background-color: rgb(96s, 92, 92);
 }
 
 .brand h1 {
@@ -453,7 +453,9 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, #29323c 0%, #000000 100%);
+  /* background-image: linear-gradient(60deg, #29323c 0%, #000000 100%); */
+  background-image: none;
+  background-color: #000000;
   opacity: 0.9;
   z-index: -1;contact-info
 }
@@ -650,7 +652,7 @@ p {
     top: 34px;
     height: 98%;
     width: 98%;
-    border: 10px solid crimson;
+    border: 10px solid #FF5800;
   }
 
   #about .col-right {
