@@ -1,6 +1,6 @@
 # Overview
 
-This is a static website showcasing a system that integrates the KUKA iiwa 14 robotic arm with an OptiTrack motion capture system for motion-aware imaging. The robot holds and maneuvers the imaging probe with precision, while OptiTrack tracks subject movement in real time. The website provides an overview of how the system works, its features, and its capabilities in improving imaging accuracy and repeatability—all presented in a lightweight, static format for easy access and fast loading. 
+This is a static website showcasing a system that integrates the KUKA iiwa 14 robotic arm with an OptiTrack motion capture system for motion-aware imaging. The robot holds and maneuvers the imaging probe with precision, while OptiTrack tracks subject movement in real time. The website provides an overview of how the system works, its features, and its capabilities in improving imaging accuracy and repeatability, all presented in a lightweight, static format for easy access and fast loading. 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
